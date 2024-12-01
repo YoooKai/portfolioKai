@@ -7,8 +7,8 @@
         <div class="col-12" data-aos="fade-up">
           <div class="intro text-center">
             <div class="hr-line"></div>
-            <h1 class="display-4">Mis Proyectos</h1>
-            <p class="mx-auto">A continuación encontrarás algunos de los proyectos que he desarrollado. Cada uno tiene su propio enfoque y tecnología utilizada.</p>
+            <h1 class="display-4">{{ $t("projectsSection.sectionTitle") }}</h1>
+            <p class="mx-auto">{{ $t("projectsSection.intro") }}</p>
           </div>
         </div>
       </div>

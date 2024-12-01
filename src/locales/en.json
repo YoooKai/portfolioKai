@@ -1,8 +1,36 @@
 {
-    "about": "About me",
+    "about": "About me",  
     "projects": "Projects",
     "skills": "Skills",
     "experience": "Experience",
-    "contact": "Contact"
-   }
-   
+    "contact": "Contact",
+  
+    "hero": {
+      "title": "KAI RODRÍGUEZ GARCÍA",  
+      "subtitle": "Designer and web developer in constant evolution.",
+      "description": "I create websites that combine creativity and technology, focusing on functional and aesthetic solutions that tell unique stories.",
+      "cta": "Explore my projects"
+    },
+  
+   "aboutSection": {
+    "sectionTitle": "A little about me",
+    "intro": "Hello! I'm a web developer based in Tenerife, Spain. My journey is a reflection of creativity and evolution, from my beginnings in Fine Arts to my current focus on digital development. Although I've always considered myself a creative person, I discovered that my true passion lies in combining design and functionality to create unique web experiences.",
+    "detail1": "With a detail-oriented approach and a problem-solving mindset, I tackle programming challenges as a constant learning process. While logic is not always my strong point, I'm driven by the desire to improve and create something meaningful. This balance between the technical and the creative allows me to deliver solutions that not only work but also have character and aesthetics.",
+    "detail2": "Outside of work, I describe myself as someone who appreciates simple things: nature, the company of my four dogs, and moments of introspection. Although I'm naturally introverted, my curiosity drives me to explore new horizons, whether through projects, video games, or dreams of traveling the world.",
+    "detail3": "Building my own website has been a transformative experience. It has helped me rediscover the joy of creating from scratch and reminded me of the importance of moving forward with purpose. My goal as a developer is not only to grow in my field but also to offer solutions that inspire and connect with people.",
+    "contactButton": "Contact me"
+    },
+
+    "experienceSection": {
+    "sectionTitle": "Work Experience",
+    "intro": "Here is my professional experience and my CV in PDF format for you to see more details.",
+    "downloadCV": "Download CV"
+    },
+    "projectsSection": {
+    "sectionTitle": "My Projects",
+    "intro": "Here are some of the projects I have developed. Each one has its own approach and technology used.",
+    "viewProject": "View Project"
+    }
+
+  }
+  

@@ -1,8 +1,35 @@
 {
-    "about": "Sobre mí",
+    "about": "Sobre mí",   
     "projects": "Proyectos",
     "skills": "Habilidades",
     "experience": "Experiencia",
-    "contact": "Contacto"
-   }
-   
+    "contact": "Contacto",
+  
+    "hero": {
+      "title": "KAI RODRÍGUEZ GARCÍA", 
+      "subtitle": "Diseñador y desarrollador web en constante evolución.",
+      "description": "Creo sitios web que unen creatividad y tecnología, con un enfoque en soluciones funcionales y estéticas que cuentan historias únicas.",
+      "cta": "Explora mis proyectos"
+    },
+  
+    "aboutSection": {
+    "sectionTitle": "Un poco sobre mí",
+    "intro": "¡Hola! Soy un desarrollador web con base en Tenerife, España. Mi trayectoria es un reflejo de creatividad y evolución, desde mis inicios en Bellas Artes hasta mi actual enfoque en el desarrollo digital. Aunque siempre me he considerado una persona creativa, descubrí que mi verdadera pasión radica en combinar diseño y funcionalidad para construir experiencias únicas en la web.",
+    "detail1": "Con un enfoque detallista y una mentalidad resolutiva, afronto los retos de la programación como un constante aprendizaje. Si bien la lógica no siempre es mi punto fuerte, me impulsa el deseo de mejorar y crear algo significativo. Este equilibrio entre lo técnico y lo creativo me permite aportar soluciones que no solo funcionan, sino que también tienen carácter y estética.",
+    "detail2": "Fuera del ámbito profesional, me describo como alguien que aprecia las cosas simples: la naturaleza, la compañía de mis cuatro perros y los momentos de introspección. Aunque soy introvertido por naturaleza, mi curiosidad me lleva a explorar nuevos horizontes, ya sea a través de proyectos, videojuegos o sueños de viajar por el mundo.",
+    "detail3": "Construir mi propio sitio web ha sido una experiencia transformadora. Me ha ayudado a redescubrir el placer de crear desde cero y me ha recordado la importancia de avanzar con propósito. Mi objetivo como desarrollador es no solo crecer en mi campo, sino también ofrecer soluciones que inspiren y conecten con las personas.",
+    "contactButton": "Contáctame"
+    },
+
+    "experienceSection": {
+    "sectionTitle": "Experiencia Laboral",
+    "intro": "Aquí está mi experiencia profesional y mi CV en formato PDF para que puedas ver más detalles.",
+    "downloadCV": "Descargar CV"
+    },
+    "projectsSection": {
+    "sectionTitle": "Mis Proyectos",
+    "intro": "A continuación encontrarás algunos de los proyectos que he desarrollado. Cada uno tiene su propio enfoque y tecnología utilizada.",
+    "viewProject": "Ver Proyecto"
+    }
+  }
+  
