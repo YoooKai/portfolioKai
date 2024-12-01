@@ -1,63 +1,107 @@
 {
-    "proyectos": [
+  "proyectos": [
     {
-      "title": "Tribu",
-      "description": "Tribu es una innovadora red social donde los usuarios comparten sus historias y experiencias, conocidas como 'echos'. Estos 'echos' pueden ser comentados y discutidos en tiempo real a través de 'waves', creando un espacio dinámico de interacción social. Desarrollado con Django, este proyecto ofrece una plataforma robusta y fácil de usar para fomentar la comunicación y el intercambio de ideas.",
+      "title": {
+        "es": "Tribu",
+        "en": "Tribe"
+      },
+      "description": {
+        "es": "Tribu es una innovadora red social donde los usuarios comparten sus historias y experiencias, conocidas como 'echos'. Estos 'echos' pueden ser comentados y discutidos en tiempo real a través de 'waves', creando un espacio dinámico de interacción social. Desarrollado con Django, este proyecto ofrece una plataforma robusta y fácil de usar para fomentar la comunicación y el intercambio de ideas.",
+        "en": "Tribu is an innovative social network where users share their stories and experiences, known as 'echos'. These 'echos' can be commented on and discussed in real time through 'waves', creating a dynamic space for social interaction. Developed with Django, this project offers a robust and easy-to-use platform for fostering communication and the exchange of ideas."
+      },
       "link": "https://github.com/YoooKai/tribu"
     },
     {
-      "title": "SuperTodo",
-      "description": "SuperTodo es una aplicación intuitiva para la gestión eficiente de tareas diarias. Con un sistema de autenticación y almacenamiento en base de datos, los usuarios pueden organizar su día a día de manera sencilla y productiva. Realizado con Django, SuperTodo permite llevar un control detallado de tareas pendientes y completadas, haciendo que la productividad sea más fácil que nunca.",
+      "title": {
+        "es": "SuperTodo",
+        "en": "SuperTodo"
+      },
+      "description": {
+        "es": "SuperTodo es una aplicación intuitiva para la gestión eficiente de tareas diarias. Con un sistema de autenticación y almacenamiento en base de datos, los usuarios pueden organizar su día a día de manera sencilla y productiva. Realizado con Django, SuperTodo permite llevar un control detallado de tareas pendientes y completadas, haciendo que la productividad sea más fácil que nunca.",
+        "en": "SuperTodo is an intuitive app for efficiently managing daily tasks. With an authentication system and database storage, users can organize their day-to-day tasks in a simple and productive way. Built with Django, SuperTodo allows detailed tracking of pending and completed tasks, making productivity easier than ever."
+      },
       "link": "https://github.com/YoooKai/supertodo"
     },
     {
-      "title": "Pokemon Shop",
-      "description": "Pokemon Shop es una tienda virtual para fanáticos de Pokémon, que utiliza la API oficial de Pokémon para ofrecer información detallada de cada criatura. Con Firebase para el almacenamiento y usando JavaScript, HTML y CSS, este proyecto crea una experiencia de compra interactiva y divertida para los usuarios, permitiéndoles explorar y adquirir sus Pokémon favoritos.",
+      "title": {
+        "es": "Tienda Pokemon",
+        "en": "Pokemon Shop"
+      },
+      "description": {
+        "es": "Pokemon Shop es una tienda virtual para fanáticos de Pokémon, que utiliza la API oficial de Pokémon para ofrecer información detallada de cada criatura. Con Firebase para el almacenamiento y usando JavaScript, HTML y CSS, este proyecto crea una experiencia de compra interactiva y divertida para los usuarios, permitiéndoles explorar y adquirir sus Pokémon favoritos.",
+        "en": "Pokemon Shop is a virtual store for Pokémon fans, using the official Pokémon API to provide detailed information about each creature. With Firebase for storage and using JavaScript, HTML, and CSS, this project creates an interactive and fun shopping experience for users, allowing them to explore and acquire their favorite Pokémon."
+      },
       "link": "https://github.com/YoooKai/PokemonProject"
     },
     {
-      "title": "LOL Cards",
-      "description": "LOL Cards es una aplicación que presenta los personajes de League of Legends como cartas digitales, utilizando una API del juego para mostrar estadísticas y habilidades de cada campeón. El diseño estilizado con CSS hace que cada carta sea visualmente atractiva, ofreciendo una manera divertida de explorar los personajes de este popular juego online.",
+      "title": {
+        "es": "Tarjetas LOL",
+        "en": "LOL Cards"
+      },
+      "description": {
+        "es": "LOL Cards es una aplicación que presenta los personajes de League of Legends como cartas digitales, utilizando una API del juego para mostrar estadísticas y habilidades de cada campeón. El diseño estilizado con CSS hace que cada carta sea visualmente atractiva, ofreciendo una manera divertida de explorar los personajes de este popular juego online.",
+        "en": "LOL Cards is an app that presents the characters of League of Legends as digital cards, using a game API to display statistics and abilities of each champion. The stylized design with CSS makes each card visually appealing, offering a fun way to explore the characters of this popular online game."
+      },
       "link": "https://github.com/YoooKai/lol"
     }
-    ],
-    "habilidades": [
-      {
-        "logo": "https://cdn.iconscout.com/icon/free/png-256/free-html-5-logo-icon-download-in-svg-png-gif-file-formats--programming-langugae-language-pack-logos-icons-1175208.png",
-        "name": "HTML",
-        "description": "HTML es la base de toda estructura web. Utilizado para crear la estructura y el contenido de páginas web. Tener un buen dominio de HTML es esencial para crear sitios accesibles y bien estructurados. Además, combinarlo con bibliotecas como Bootstrap ayuda a desarrollar interfaces más rápidamente y de forma responsiva.",
-        "level": 4
-      },
-      {
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png",
-        "name": "CSS",
-        "description": "CSS es el lenguaje que se utiliza para diseñar y estilizar páginas web. Con CSS puedes definir colores, fuentes, tamaños, márgenes, posiciones y mucho más. Sabiendo usar bibliotecas como Bootstrap y animaciones CSS, puedes crear interfaces modernas y atractivas que mejoren la experiencia del usuario.",
-        "level": 5
-      },
-      {
-        "logo": "https://i.pinimg.com/originals/13/40/7c/13407c12f50f08d328800c3caef43f61.png",
-        "name": "JavaScript",
-        "description": "JavaScript es un lenguaje esencial para añadir interactividad a las páginas web. Es fundamental para implementar lógica, manejar eventos, y manipular el DOM de manera dinámica. Además, con conocimientos en jQuery y TypeScript, puedes mejorar la gestión de datos, la interacción con APIs y la escalabilidad del código.",
-        "level": 5
-      },
-      {
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vue.png",
-        "name": "Vue.js",
-        "description": "Vue.js es un framework progresivo de JavaScript que facilita la creación de interfaces de usuario interactivas. Con Vue, puedes crear aplicaciones web rápidas y fáciles de mantener. Es ideal para proyectos que requieren una estructura flexible, y su integración con TypeScript y otras herramientas de frontend te permite construir aplicaciones de alto rendimiento.",
-        "level": 5
-      },
-      {
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
-        "name": "Python",
-        "description": "Python es un lenguaje de programación versátil, utilizado en el desarrollo de backends, análisis de datos, inteligencia artificial y más. Su sintaxis sencilla y su vasta librería de herramientas lo hacen perfecto para implementar lógica en proyectos complejos. Es ideal para construir servidores web robustos y manejar grandes volúmenes de datos.",
-        "level": 5
-      },
-      {
-        "logo": "https://www.svgrepo.com/show/353657/django-icon.svg",
-        "name": "Django",
-        "description": "Django es un framework de desarrollo web en Python que permite crear aplicaciones web rápidas y seguras. Con Django, puedes desarrollar proyectos complejos de manera eficiente gracias a su sistema de administración incorporado, seguridad robusta y gran capacidad de integración con bases de datos. Ideal para desarrolladores que buscan rapidez en la creación de aplicaciones.",
-        "level": 5
-      }
-    ]
+  ],
+
+   "habilidades": [
+  {
+    "logo": "https://cdn.iconscout.com/icon/free/png-256/free-html-5-logo-icon-download-in-svg-png-gif-file-formats--programming-langugae-language-pack-logos-icons-1175208.png",
+    "name": "HTML",
+    "description": {
+      "es": "HTML es la base de toda estructura web. Utilizado para crear la estructura y el contenido de páginas web. Tener un buen dominio de HTML es esencial para crear sitios accesibles y bien estructurados. Además, combinarlo con bibliotecas como Bootstrap ayuda a desarrollar interfaces más rápidamente y de forma responsiva.",
+      "en": "HTML is the foundation of all web structures. Used to create the structure and content of web pages. Having a good command of HTML is essential to create accessible and well-structured sites. Additionally, combining it with libraries like Bootstrap helps to develop interfaces more quickly and responsively."
+    },
+    "level": 4
+  },
+  {
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png",
+    "name": "CSS",
+    "description": {
+      "es": "CSS es el lenguaje que se utiliza para diseñar y estilizar páginas web. Con CSS puedes definir colores, fuentes, tamaños, márgenes, posiciones y mucho más. Sabiendo usar bibliotecas como Bootstrap y animaciones CSS, puedes crear interfaces modernas y atractivas que mejoren la experiencia del usuario.",
+      "en": "CSS is the language used to design and style web pages. With CSS, you can define colors, fonts, sizes, margins, positions, and much more. Knowing how to use libraries like Bootstrap and CSS animations, you can create modern and attractive interfaces that enhance the user experience."
+    },
+    "level": 5
+  },
+  {
+    "logo": "https://i.pinimg.com/originals/13/40/7c/13407c12f50f08d328800c3caef43f61.png",
+    "name": "JavaScript",
+    "description": {
+      "es": "JavaScript es un lenguaje esencial para añadir interactividad a las páginas web. Es fundamental para implementar lógica, manejar eventos, y manipular el DOM de manera dinámica. Además, con conocimientos en jQuery y TypeScript, puedes mejorar la gestión de datos, la interacción con APIs y la escalabilidad del código.",
+      "en": "JavaScript is an essential language to add interactivity to web pages. It is fundamental for implementing logic, handling events, and dynamically manipulating the DOM. Additionally, with knowledge of jQuery and TypeScript, you can improve data management, API interaction, and code scalability."
+    },
+    "level": 5
+  },
+  {
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vue.png",
+    "name": "Vue.js",
+    "description": {
+      "es": "Vue.js es un framework progresivo de JavaScript que facilita la creación de interfaces de usuario interactivas. Con Vue, puedes crear aplicaciones web rápidas y fáciles de mantener. Es ideal para proyectos que requieren una estructura flexible, y su integración con TypeScript y otras herramientas de frontend te permite construir aplicaciones de alto rendimiento.",
+      "en": "Vue.js is a progressive JavaScript framework that facilitates the creation of interactive user interfaces. With Vue, you can create fast and easy-to-maintain web applications. It is ideal for projects that require a flexible structure, and its integration with TypeScript and other frontend tools allows you to build high-performance applications."
+    },
+    "level": 5
+  },
+  {
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
+    "name": "Python",
+    "description": {
+      "es": "Python es un lenguaje de programación versátil, utilizado en el desarrollo de backends, análisis de datos, inteligencia artificial y más. Su sintaxis sencilla y su vasta librería de herramientas lo hacen perfecto para implementar lógica en proyectos complejos. Es ideal para construir servidores web robustos y manejar grandes volúmenes de datos.",
+      "en": "Python is a versatile programming language used in backend development, data analysis, artificial intelligence, and more. Its simple syntax and vast library of tools make it perfect for implementing logic in complex projects. It is ideal for building robust web servers and handling large volumes of data."
+    },
+    "level": 5
+  },
+  {
+    "logo": "https://www.svgrepo.com/show/353657/django-icon.svg",
+    "name": "Django",
+    "description": {
+      "es": "Django es un framework de desarrollo web en Python que permite crear aplicaciones web rápidas y seguras. Con Django, puedes desarrollar proyectos complejos de manera eficiente gracias a su sistema de administración incorporado, seguridad robusta y gran capacidad de integración con bases de datos. Ideal para desarrolladores que buscan rapidez en la creación de aplicaciones.",
+      "en": "Django is a web development framework in Python that allows you to build fast and secure web applications. With Django, you can develop complex projects efficiently thanks to its built-in admin system, robust security, and excellent integration capabilities with databases. Ideal for developers seeking speed in application creation."
+    },
+    "level": 5
+  }
+]
+
   }
   

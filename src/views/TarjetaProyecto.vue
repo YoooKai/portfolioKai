@@ -1,22 +1,28 @@
 <template>
-    <div class="card proyecto-card">
-      <h3>{{ proyecto.title }}</h3>
-      <p>{{ proyecto.description }}</p>
-      <a :href="proyecto.link" target="_blank" class="btn btn-primary">Ver Proyecto</a>
-    </div>
-  </template>
-  
-  <script>
-  export default {
-    name: "TarjetaProyecto",
-    props: {
-      proyecto: {
-        type: Object,
-        required: true
-      }
+  <div class="card proyecto-card">
+    <h3>{{ proyecto.title[currentLang] }}</h3>
+    <p>{{ proyecto.description[currentLang] }}</p>
+    <a :href="proyecto.link" target="_blank" class="btn btn-primary">{{ $t("viewProject") }}</a>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "TarjetaProyecto",
+  props: {
+    proyecto: {
+      type: Object,
+      required: true
     }
-  };
-  </script>
+  },
+  computed: {
+    currentLang() {
+      return this.$i18n.locale; // Obtén el idioma actual
+    }
+  }
+};
+</script>
+
   
   <style scoped>
   .proyecto-card {

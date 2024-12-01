@@ -30,7 +30,34 @@
     "sectionTitle": "My Projects",
     "intro": "Here are some of the projects I have developed. Each one has its own approach and technology used.",
     "viewProject": "View Project"
+    },
+    
+    "skillsSection": {
+    "title": "Skills",
+    "intro": "Here are some of the technical skills I have developed throughout my career. Each one reflects my ability to work with modern technologies and solve complex challenges."
+    },
+    "contactform": {
+        "title": "Get in Touch",
+        "description": "I would love to hear from you! Whether you have a question, feedback, or just want to connect, feel free to send me a message. I'll get back to you as soon as possible.",
+        "name": "Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Message",
+        "terms": "I accept the terms and conditions",
+        "submitButton": "Send Form",
+        "alertSuccess": "Form submitted successfully.",
+        "alertError": "An error occurred while submitting the form.",
+        "completeFields": "Please, complete all fields and accept the terms."
+      },
+      "footer": {
+        "email": "EMAIL",
+        "phone": "PHONE",
+        "followMe": "Follow me on:",
+        "copyright": "Copyright© all rights reserved.",
+        "designedBy": "Designed by"
     }
+      
+      
 
   }
   

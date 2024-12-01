@@ -30,6 +30,30 @@
     "sectionTitle": "Mis Proyectos",
     "intro": "A continuación encontrarás algunos de los proyectos que he desarrollado. Cada uno tiene su propio enfoque y tecnología utilizada.",
     "viewProject": "Ver Proyecto"
-    }
+    },
+    "skillsSection": {
+    "title": "Habilidades",
+    "intro": "Aquí puedes ver algunas de las habilidades técnicas que he desarrollado a lo largo de mi carrera. Cada una refleja mi capacidad para trabajar con tecnologías modernas y resolver desafíos complejos."
+  },
+  "contactform": {
+    "title": "Ponte en contacto",
+    "description": "¡Me encantaría saber de ti! Ya sea que tengas una pregunta, comentario o simplemente quieras conectarte, no dudes en enviarme un mensaje. Te responderé lo antes posible.",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "terms": "Acepto los términos y condiciones",
+    "submitButton": "Enviar Formulario",
+    "alertSuccess": "Formulario enviado con éxito.",
+    "alertError": "Ocurrió un error al enviar el formulario.",
+    "completeFields": "Por favor, complete todos los campos y acepte los términos."
+  },
+  "footer": {
+    "email": "CORREO",
+    "phone": "TELÉFONO",
+    "followMe": "Sígueme en:",
+    "copyright": "Copyright© todos los derechos reservados.",
+    "designedBy": "Diseñado por"
+  }
   }
   

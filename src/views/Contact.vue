@@ -2,16 +2,16 @@
   <div>
     <!-- Importación del Navbar -->
     <Navbar />
-
-    <section id="contact">
+    
+    <section id="contactform">
       <div class="container">
         <div class="row">
           <div class="col-12" data-aos="fade-up">
             <div class="intro text-center">
               <div class="hr-line"></div>
-              <h1 class="display-4">Ponte ya <br> en contacto</h1>
-              <p class="mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ea possimus voluptatem
-                deleniti dolorem ut odit eveniet.</p>
+              <!-- Título dinámico -->
+              <h1 class="display-4">{{ $t("contactform.title") }}</h1>
+              <p class="mx-auto">{{ $t("contactform.description") }}</p>
             </div>
           </div>
         </div>
@@ -20,24 +20,24 @@
             <!-- Formulario de Contacto -->
             <form @submit.prevent="handleSubmit" class="row gy-3">
               <div class="col-lg-6">
-                <input v-model="name" type="text" class="form-control" placeholder="Nombre" />
+                <input v-model="name" type="text" class="form-control" :placeholder="$t('contactform.name')" />
               </div>
               <div class="col-lg-6">
-                <input v-model="email" type="email" class="form-control" placeholder="Email" />
+                <input v-model="email" type="email" class="form-control" :placeholder="$t('contactform.email')" />
               </div>
               <div class="col-lg-12">
-                <input v-model="subject" type="text" class="form-control" placeholder="Asunto" />
+                <input v-model="subject" type="text" class="form-control" :placeholder="$t('contactform.subject')" />
               </div>
               <div class="col-lg-12">
-                <textarea v-model="message" class="form-control" placeholder="Mensaje" rows="5"></textarea>
+                <textarea v-model="message" class="form-control" :placeholder="$t('contactform.message')" rows="5"></textarea>
               </div>
               <div class="col-12">
                 <label>
-                  <input v-model="terms" type="checkbox" /> Acepto los términos y condiciones
+                  <input v-model="terms" type="checkbox" /> {{ $t('contactform.terms') }}
                 </label>
               </div>
               <div class="col-12">
-                <button class="btn btn-dark" type="submit">Enviar Formulario</button>
+                <button class="btn btn-dark" type="submit">{{ $t('contactform.submitButton') }}</button>
               </div>
             </form>
           </div>

@@ -36,7 +36,7 @@
          
           <p>{{ $t("aboutSection.detail1") }}</p>
           <p>{{ $t("aboutSection.detail2") }}</p>
-          <p>{{ $t("aboutSection.detail3") }}</p>
+              <p>{{ $t("aboutSection.detail3") }}</p>
            
           
           <a href="#" class="btn btn-outline-dark">{{ $t("aboutSection.contactButton") }}</a>

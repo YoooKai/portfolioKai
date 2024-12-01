@@ -1,12 +1,12 @@
 <template>
-  <Navbar class="bg-dark" />
+  <Navbar  />
   
   <section id="proyectos" class="py-5">
     <div class="container">
       <div class="row">
         <div class="col-12" data-aos="fade-up">
           <div class="intro text-center">
-            <div class="hr-line"></div>
+            <div class="mt-5"></div>
             <h1 class="display-4">{{ $t("projectsSection.sectionTitle") }}</h1>
             <p class="mx-auto">{{ $t("projectsSection.intro") }}</p>
           </div>
@@ -21,9 +21,9 @@
               <i class="ri-code-s-slash-line"></i>
             </div>
             <div>
-              <h5>{{ proyecto.title }}</h5>
-              <p>{{ proyecto.description }}</p>
-              <a :href="proyecto.link" class="link-arrow">Ver Proyecto <i class="ri-arrow-right-up-line"></i></a>
+              <h5>{{ proyecto.title[locale] }}</h5>
+              <p>{{ proyecto.description[locale] }}</p>
+              <a :href="proyecto.link" class="link-arrow">{{ $t("projectsSection.viewProject") }} <i class="ri-arrow-right-up-line"></i></a>
             </div>
           </div>
         </div>
@@ -44,8 +44,15 @@ export default {
   components: { Navbar, Footer },
   data() {
     return {
-      proyectos: data.proyectos
+      proyectos: data.proyectos,
+      locale: this.$i18n.locale  // Obtenemos el idioma actual de la app
     };
+  },
+  watch: {
+    // Actualizamos el locale si cambia el idioma
+    '$i18n.locale'(newLocale) {
+      this.locale = newLocale;
+    }
   }
 };
 </script>

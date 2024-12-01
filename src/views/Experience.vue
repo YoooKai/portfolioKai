@@ -1,5 +1,5 @@
 <template>
-  <Navbar class="bg-dark" />
+  <Navbar  />
   <section id="experience">
     <div class="container">
       <div class="row">

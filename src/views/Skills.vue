@@ -1,10 +1,10 @@
 <template>
-  <Navbar class="bg-dark" />
-  
+   <Navbar />  
   <section id="habilidades">
-    <h1 data-aos="fade-up" >Habilidades</h1>
-    <p class="mx-auto mb-5 w-50" data-aos="fade-up">Aquí puedes ver algunas de las habilidades técnicas que he desarrollado a lo largo de mi carrera. 
-      Cada una refleja mi capacidad para trabajar con tecnologías modernas y resolver desafíos complejos.</p>
+    <h1 data-aos="fade-up">{{ $t("skillsSection.title") }}</h1>
+    <p class="mx-auto mb-5 w-50" data-aos="fade-up">
+      {{ $t("skillsSection.intro") }}
+    </p>
 
     <div class="row" data-aos="fade-up">
       <div class="col-12 col-sm-6 col-md-4 col-lg-3" v-for="habilidad in habilidades" :key="habilidad.name">
