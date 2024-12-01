@@ -52,7 +52,7 @@
 
 <script>
 import { db } from '../firebase'; 
-import { doc, setDoc } from 'firebase/firestore'; 
+import { collection, addDoc } from 'firebase/firestore'; 
 import Navbar from '../components/Navbar.vue';  
 import Footer from '../components/Footer.vue';  
 
@@ -79,36 +79,30 @@ export default {
         return;
       }
 
-      // Preparar los datos del formulario
-      const formData = {
-        name: this.name,
-        email: this.email,
-        subject: this.subject,
-        message: this.message,
-        terms: this.terms,
-        timestamp: new Date()
-      };
-
+      // Guardar en Firebase
       try {
-        // Crear un nuevo documento en la colección "contacts" con un ID generado automáticamente
-        const docRef = await addDoc(collection(db, "contacts"), formData);
+        const messagesCollection = collection(db, "messages"); // Nombre de la colección
+        await addDoc(messagesCollection, {
+          name: this.name,
+          email: this.email,
+          subject: this.subject,
+          message: this.message,
+          termsAccepted: this.terms,
+          timestamp: new Date() 
+        });
 
-        console.log("Formulario enviado y guardado en Firestore con ID:", docRef.id);
-
-        // Mostrar que el formulario fue enviado
-        this.formSubmitted = true;
-
-        // Limpiar el formulario después de enviarlo
+        // Resetear el formulario tras el envío
         this.name = '';
         this.email = '';
         this.subject = '';
         this.message = '';
         this.terms = false;
+        this.formSubmitted = true;
 
-        alert('Formulario enviado exitosamente');
+        alert("Formulario enviado con éxito.");
       } catch (error) {
-        console.error("Error al guardar los datos en Firebase: ", error);
-        alert('Hubo un error al enviar el formulario. Por favor, intenta nuevamente.');
+        console.error("Error al enviar el formulario:", error);
+        alert("Ocurrió un error al enviar el formulario.");
       }
     }
   }

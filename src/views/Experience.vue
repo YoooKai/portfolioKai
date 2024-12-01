@@ -15,7 +15,6 @@
         <!-- Mostrar el PDF con iframe -->
         <div class="row">
           <div class="col-12" data-aos="fade-up">
-            <!-- Usamos la ruta pública para el archivo -->
             <iframe
               src="/cv.pdf"
               width="100%"
@@ -28,7 +27,6 @@
         <!-- Botón para descargar el PDF -->
         <div class="row">
           <div class="col-12 text-center" data-aos="fade-up">
-            <!-- Usamos la ruta pública para el archivo -->
             <a
               href="/cv.pdf"
               download="cv-kai-rodriguez.pdf"
