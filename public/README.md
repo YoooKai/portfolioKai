@@ -186,3 +186,26 @@ export default {
 - **Realtime Database**: Si usas Realtime Database, verás los datos guardados en la referencia `contacts` en la base de datos.
 
 ¡Y eso es todo! Ahora tus datos del formulario se guardarán en Firebase. Puedes adaptarlo para que también funcione con otras bases de datos de Firebase o realizar validaciones adicionales si lo necesitas.
+
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyAvCqJ-eFXzNZSN0k5VASnHDVwVowYM4dA",
+  authDomain: "portfolio-170fe.firebaseapp.com",
+  projectId: "portfolio-170fe",
+  storageBucket: "portfolio-170fe.firebasestorage.app",
+  messagingSenderId: "555884952783",
+  appId: "1:555884952783:web:43053a15147becd879cbba",
+  measurementId: "G-37F8Z07H7H"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
